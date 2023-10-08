@@ -1,0 +1,15 @@
+.centered-div {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100vw;
+    height: 100vh;
+   
+  }
+
+  .center-square{
+    background-color: rgb(11, 248, 169);
+
+    width: 200px;
+    height: 200px;
+  }

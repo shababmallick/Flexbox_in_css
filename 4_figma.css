@@ -1,0 +1,117 @@
+.container{
+    display: flex;
+    flex-direction: row;  
+    background-color: rgb(241, 243, 245);
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    column-gap: 20px;
+}
+
+.container-section1{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid  rgb(225, 231, 236); ;
+    color:midnightblue;
+}
+
+.container-section1 h2{
+    margin-bottom: 0px;
+}
+
+.container-section1 p{
+    margin-top: 0px;
+}
+
+.container-section1 ul {
+    list-style-type: none;
+     padding-left: 0px;
+     margin-bottom: 10px;
+}
+
+.container-section1 ul li::before{
+    content: "✔";
+    border: 1px solid midnightblue;
+    border-radius: 100%;
+    color: white;
+    background-color: midnightblue ;
+    text-align: center; /* Center the checkmark horizontally */
+     line-height: 1em;
+     margin-right: 10px; /* Add spacing between the checkmark and the text */
+     font-size: 1em; 
+     line-height: 1.3rem;
+     
+}
+
+.container-section2{
+    background-color:midnightblue;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid  rgb(225, 231, 236); ;
+    color:white;
+}
+
+.container-section2 h2{
+    margin-bottom: 0px;
+}
+
+.container-section2 p{
+    margin-top: 0px;
+}
+
+.container-section2 ul {
+    list-style-type: none;
+     padding-left: 0px;
+     margin-bottom: 10px;
+}
+
+.container-section2 ul li::before{
+    content: "✔";
+    border: 1px solid white;
+    border-radius: 100%;
+    color: midnightblue;
+    background-color: white ;
+    text-align: center; /* Center the checkmark horizontally */
+     line-height: 1em;
+     margin-right: 10px; /* Add spacing between the checkmark and the text */
+     font-size: 1em; 
+     font-family: Arial, Helvetica, sans-serif;
+     line-height: 1.3rem;
+}
+
+.container-section3{
+    background-color:white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid  rgb(225, 231, 236); ;
+    color:midnightblue;
+}
+
+.container-section3 h2{
+    margin-bottom: 0px;
+}
+
+.container-section3 p{
+    margin-top: 0px;
+}
+
+.container-section3 ul {
+    list-style-type: none;
+     padding-left: 0px;
+     margin-bottom: 10px;
+}
+
+.container-section3 ul li::before{
+    content: "✔";
+    border: 1px solid midnightblue;
+    border-radius: 50%;
+    color: white;
+    background-color: midnightblue ;
+    text-align: center; /* Center the checkmark horizontally */
+     line-height: 1em;
+     margin-right: 10px; /* Add spacing between the checkmark and the text */
+     font-size: 1em; 
+     line-height: 1.3rem;
+}

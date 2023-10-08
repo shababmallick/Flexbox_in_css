@@ -1,0 +1,63 @@
+Justify-content:
+
+This property controls how flex items are distributed along
+the main axis of the flex container.The main axis is determined
+by the 'flex-direction' property(either horizontal or vertical)
+
+
+Common values for "justify-content" include:
+
+"flex-start": items are packed at the start of the main axis
+
+"flex-end": Items are packed at the end of the main axis
+
+"center":Items are centered along the main axis.
+
+"space-between": Items are evenly spaced with the first 
+item at the start and the last item at the end,and the remaining space 
+space distributed between them.
+
+space-around: items are evenly spaced with equal space around the item
+
+"space-evenly":Items are evenly spaced with equal space around
+and between them.
+
+
+2 align-items:
+
+This property determines how the items inside a 
+flex container are aligned along the cross axis(vertical 
+axis by default).
+
+Values include 'flex-start', 'flex-end','center','stretch',
+and 'baseline'. These values control the vertical alignment
+of flex items within the container.
+
+3. gap:
+
+The 'gap' property specifies the space between flex items
+in a flex container.it sets the margin between adjacent items,
+both horizontally and vertically.
+
+it can take a single value for equal spacing in both directions
+or two values(e.g., 'gap':10px 20px;)to set different horizontal and 
+vertical gaps.
+
+4. 'flex-direction': This property determines the direction
+in which flex item are placed within the flex container.
+it defines the main axis and the direction of item placement.
+
+Values include 'row'(default, left to right),'row-reverse'
+(right to left) 'column' (top to bottom) and 'column-reverse(bottom to top).
+
+5. 'flex-wrap':
+ 1. The 'flex-wrap' property controls whether flex-items should
+ wrap to the next line when they don't fit within the container
+ available space along the main axis.
+
+ values include 'nowwrap'(default, no wrapping)
+'wrap'(item wrap onto new lines afs needed), and 'wrap-reverse'
+(items wrap onto new lines in the opposite direction).
+
+
+
